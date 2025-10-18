@@ -11,4 +11,4 @@ yfinance
 openai
 sqlalchemy
 groq
-pip install pydantic-settings
+pydantic-settings
