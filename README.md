@@ -87,7 +87,7 @@ pip install -r requirements.txt
 
 ```bash
 cd Algorithmic-Trading-Adventure
-python app.py
+python 2.app.py
 ```
 
 When finished, return to the repo root:
