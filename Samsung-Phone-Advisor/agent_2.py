@@ -1,6 +1,6 @@
 import os
 import getpass
-from dotenv import load_dotenv  # Add this import
+from dotenv import load_dotenv  
 from langchain_core.prompts import PromptTemplate
 from langchain_groq import ChatGroq
 
@@ -33,7 +33,7 @@ class LLMResponseAgent:
         
         formatted_prompt = prompt_template.format(
             user_query=user_query, 
-            agent_1_result=str(agent_1_result)  # Convert to string to avoid serialization issues
+            agent_1_result=str(agent_1_result)  
         )
         
         response = self.llm.invoke(formatted_prompt)
